@@ -1,0 +1,443 @@
+/*========================================
+COMMON CSSS
+=========================================*/
+*{
+    margin:0;
+    padding:0;
+    font-family: sans-serif;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    outline: 0;
+    border: 0;
+}
+.container{
+    max-width: 1100px;
+    margin:auto;
+}
+section{
+    padding: 75px 0px;
+}
+.underline{
+    display: block;
+    border-bottom: 5px solid #00000042;
+    background: transparent;
+    width:10%;
+    margin: 25px auto;
+}
+/*========================================
+HEADER SECTION STARET HERE
+=========================================*/
+header{
+    background-color: #87509c;
+    padding-top:30px;
+}
+header nav{
+    display: flex;
+    justify-content: space-between;
+}
+.menu-part ul li{
+    display: inline-block;
+}
+.menu-part ul li a{
+    color:#fff;
+    font-size: 16px;
+    margin:10px;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    transition: 0.3s;
+}
+.menu-part ul li a:last-child{
+    margin-right: 0;
+}
+.menu-part ul li a:hover{
+    background-color:#643a79; 
+    border-radius: 5px;
+}
+.header-writing-part{
+    text-align: center;
+}
+.header-writing-part h1{
+    color:#fff;
+    margin-top: 100px;
+    font-size: 30px;
+}
+header button[type="button"]{
+    background: #eb7d4b;
+    color: #fff;
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 25px 80px;
+    border-radius: 5px;
+    margin-top: 50px;
+    margin-bottom: 60px;
+    transition: 0.3s;
+}
+header button[type="button"]:hover{
+    background:  #643a79;
+    cursor: pointer;
+}
+/*=======================================
+SERVICES SECTION START HERE
+=========================================*/
+#Services-part{
+    background: #17c2a4;
+    color: #fff;
+}
+.service-writing-part{
+    text-align: center;
+    color:#fff
+}
+.service-writing-part h1{
+    letter-spacing: 0.3ch;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+.service-writing-part p{
+    font-size: 18px;
+    color: #f0fbf9;
+    line-height: 3ch;
+}
+.service-box-part{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px auto;
+}
+.single-service-box{
+    text-align: center;
+}
+.single-service-box h3{
+    margin: 40px 0px 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.single-service-box p{
+    font-size: 18px;
+    color: #f0fbf9;
+    line-height: 2.5ch;
+}
+/*========================================
+OUR TEAM SECTION START HERE
+=========================================*/
+#Our-team{
+    background: #e7f1f8;
+}
+.team-writing{
+    text-align: center;
+}
+.team-writing h1{
+    font-size: 30px;
+    color: #3c4761;
+    letter-spacing: 0.3ch;
+}
+.team-writing p{
+    color: #535e75;
+    font-size: 18px;
+}
+.team-box{
+    display: flex;
+    justify-content: space-between;
+    margin:auto;
+}
+.single-team-box img{
+    text-align: center;
+    margin:50px;
+    margin-top: 80px;
+}
+.single-team-box span{
+    display: block;
+    color:#30bae7;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.single-team-box h3{
+    text-align: center;
+    font-size: 24px;
+}
+.single-team-box p{
+    color: #535e75;
+    font-size: 16px;
+    line-height: 3ch;
+    text-align: center;
+}
+#Our-team ul li{
+    display: inline-flex;
+    margin:10px;
+}
+.social-part{
+    text-align: center;
+}
+.social-part ul li a{
+    background: #bdd1df;
+    color:#fff;
+    padding:10px;
+    border-radius: 100px;
+    cursor: pointer;
+}
+/*========================================
+SKILLS SECTION STARET HERE
+=========================================*/
+#Skills{
+    background-color: #ffffff;
+    color: #3c4761;
+    width:100%;
+}
+.skills-writing{
+    text-align: center;
+}
+.skills-writing h1{
+    letter-spacing: 0.3ch;
+}
+.skills-writing p{
+    font-size: 18px;
+    margin-bottom: 80px;
+}
+.skills-box{
+    display:flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.single-skills-box h3{
+    margin-top: 30px;
+}
+/*========================================
+PROTFOLIO SECTION STARET HERE
+=========================================*/
+#Portfolio{
+    background: #ffdd99;
+}
+.portfolio-writing{
+    text-align: center;
+}
+#Portfolio nav{
+    display: block;
+    text-align: center;
+    margin: 60px;
+}
+#Portfolio nav ul li{
+    display: inline-block;
+    text-align: center;
+}
+#Portfolio nav ul li a{
+    margin: 5px;
+    padding: 15px 30px;
+    border-radius: 5px;
+    background:#ebc985;
+    color:#000;
+    text-transform: uppercase;
+    transition: 0.3s;
+}
+#Portfolio nav ul li a:hover{
+    background: #fff;
+}
+.portfolio-box-1,.portfolio-box-2{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin:50px 0px;
+}
+.portfolio-box-1 p,.portfolio-box-2 p{
+    font-size: 18px;
+    margin-top: 20px;
+    color:#3c4761;
+}
+#Portfolio button[type="button"]{
+    display: block;
+    margin: 50px  auto 0;
+    background: #17c2a4;
+    color: #fff;
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 25px 40px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+#Portfolio button:hover{
+    background: #273a71;
+    cursor: pointer;
+}
+/*========================================
+ABOUT SECTION START HERE
+=========================================*/
+#About{
+    background-color: #d74680;
+    width:100%;
+    overflow: hidden;
+}
+.about-writing{
+    text-align: center;
+    color: #fff;
+}
+.about-box-part{
+    width:100%;
+    float: left;
+}
+.single-about-box{
+    width:50%;
+    float: left;
+    display: flex;
+}
+.about-box-writing{
+    margin-left: 50px;
+    color: #fff;
+}
+.about-box-writing h3{
+    margin: 30px 0 10px;
+}
+.about-box-writing span{
+    color: #ffdd99;
+}
+.about-img-2{
+    margin-left: 86px;
+}
+.single-about-box{
+    margin-top: 100px;
+}
+/*========================================
+FORMS START HERE
+=========================================*/
+#forms{
+    background-color: #3c5499;
+}
+.forms-writing{
+    text-align: center;
+    color: #fff;
+}
+.forms-writing p{
+    font-size: 18px;
+}
+#contact-form{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 50px;
+}
+.input-area{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.input-area input{
+    padding: 20px 80px;
+    margin:20px;
+    background-color: #273a71;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.text-area{
+    display: block;
+    text-align: center;
+    padding:20px;
+}
+textarea{
+    resize: none;
+    width: 75%;
+    padding: 50px;
+    background-color: #273a71;
+    color: #fff;
+    border-radius: 5px;
+}
+input::placeholder,textarea::placeholder{
+    color:#fff;
+    margin:20px 30px
+
+}
+#forms button[type="button"]{
+    display: block;
+    margin:40px auto;
+    padding:25px 80px;
+    border-radius: 5px;
+    background-color: #30bae7;
+    color:#fff;
+    text-transform: uppercase;
+    transition: 0.5s;
+}
+#forms button[type="button"]:hover{
+    background-color: #273a71;
+}
+/*========================================
+FOOTER START HERE
+=========================================*/
+footer{
+    background-color: #344b8e;
+}
+.foonter-are{
+    text-align: center;
+}
+.foonter-are ul li{
+    display: inline-flex;
+    margin:  30px;
+}
+.foonter-are ul li a{
+    color:#fff;
+    transition: 0.5s;
+}
+.foonter-are ul li a:hover{
+    color: #30bae7;
+}
+/*========================================
+RESPONSIVE START HERE
+=========================================*/
+@media(max-width:992px){
+    /* header section */
+    nav{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .menu-part ul li{
+        display: flex;
+        flex-direction: column;
+    }
+    .header-writing-part h1{
+        font-size: 30px;
+    }
+    header button[type="button"]{
+        padding:15px 20px;
+    }
+    /* services section */
+    .service-box-part{
+        display: flex;
+        flex-direction: column;
+    }
+    .single-service-box{
+        margin-top: 10px;
+        margin-bottom:10px;
+    }
+    .service-heder-part h1{
+        font-size: 30px;
+    }
+    /* our team section */
+    .team-box{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .team-writing h1{
+        font-size: 25px;
+    }
+    /* skills section */
+    .skills-box{
+        display: flex;
+        flex-direction: column;
+    }
+    .single-skills-box h3{
+        margin-bottom: 20px;
+    }
+    /* portfolio section */
+    .portfolio-box-1,.portfolio-box-2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .single-portfolio p{
+        margin-bottom: 20px;
+    }
+    .portfolio-box-1{
+        margin-bottom: -50px;
+    }
+}
